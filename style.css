@@ -3,13 +3,15 @@ body{
     padding: 0;
 }
 .periodico{
-    margin: 0 10%;
+    margin: 0 25%;
     position: relative;
+    background-image: url(./assets/fondo.png);
+
 }
 header{
     width: 100%;
-    height: 150px;
-    background-image: url(./assets/pngtree-old-newspaper-vector-picture-image_1191857.png);
+    height: 10vh;
+    border-bottom: 2px dotted black;
 }
 header > div{
     display: inline-block;
@@ -17,14 +19,16 @@ header > div{
 
 .container_box{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .section1{
-    width: 33%;
+    width: 31%;
     height: 100%;
     position: absolute;
-    left: 0;
+    left: 10px;
 }
 .section1 .cont_section1{
     width: 100%;
@@ -34,16 +38,34 @@ header > div{
 }
 .section1 .cont_section1 article{
     width: 100%;
-    height: 70%;
-    background-color: aquamarine;
+    height: 80%;
+    border-bottom: 2px dotted black;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.section1 .cont_section1 article h2{
+    margin: 0;
+}
+.section1 .cont_section1 article p{
+    margin: 0;
+    font-size: 14px;
+}
+.section1 .cont_section1 article img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
 }
 .section1 .cont_section1 div{
     width: 100%;
-    height: 30%;
-    background-color: brown;
+    height: 19%;
+}
+.section1 .cont_section1 div img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
 }
 .section2{
-    width: 34%;
+    width: 32%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -59,7 +81,11 @@ header > div{
 .section2 .div1{
     width: 100%;
     height: 20%;
-    background-color:blueviolet;
+}
+.section2 .div1 p{
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 2px black dotted;
 }
 .section2 .article1{
     width: 100%;
@@ -79,10 +105,10 @@ header > div{
 
 }
 .section3{
-    width: 33%;
+    width: 31%;
     height: 100%;
     position: absolute;
-    right: 0;
+    right: 10px;
 }
 .section3 .cont_section3{
     width: 100%;
@@ -105,6 +131,6 @@ header > div{
 }
 footer{
     width: 100%;
-    height: 100px;
+    height: 10vh;
     background-color: darkgoldenrod;
 }
