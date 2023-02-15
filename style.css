@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .periodico{
-    margin: 0 28%;
+    margin: 0 25%;
     position: relative;
     background-image: url(./assets/fondo.png);
 
@@ -30,7 +30,7 @@ header div:nth-child(2){
     width: 56%;
 }
 header h1{
-    font-size: 47px;
+    font-size: 3vw;
     margin: 0;
 }
 header .text2{
@@ -65,7 +65,7 @@ header .text2{
 }
 .section1 .cont_section1 p{
     margin: 0;
-    font-size: 13px;
+    font-size: 0.5vw;
 }
 .section1 .cont_section1 article{
     width: 100%;
@@ -76,7 +76,7 @@ header .text2{
 
 .section1 .cont_section1 article p{
     margin: 0;
-    font-size: 13px;
+    font-size: 0.73vw;
 }
 .section1 .cont_section1 article img{
     width: 100%;
@@ -102,16 +102,13 @@ header .text2{
     top: 0;
     margin: auto;
 }
-.section2 .cont_section2{
-    width: 100%;
-    height: 100%;
-}
+
 .section2 .div1{
     width: 100%;
     height: 16%;
 }
 .section2 .div1 p{
-    font-size: 13px;
+    font-size: 0.73vw;
     border-bottom: 2px black dotted;
 }
 .section2 .article1{
@@ -131,7 +128,7 @@ header .text2{
 }
 .section2 .article1 p{
     margin: 0;
-    font-size: 13px;
+    font-size: 0.73vw;
     border-bottom: 2px dotted black;
 }
 .section2 .article2{
@@ -146,7 +143,7 @@ header .text2{
 }
 .section2 .article2 p{
     margin: 0;
-    font-size: 13px;
+    font-size: 0.73vw;
 }
 .section2 .article2 img{
     width: 100%;
@@ -159,7 +156,7 @@ header .text2{
 }
 .section2 .div2 p{
     margin: 0;
-    font-size: 13px;
+    font-size: 0.73vw;
 }
 .section3{
     width: 31%;
@@ -178,7 +175,7 @@ header .text2{
 }
 .section3 .cont_section3 p{
     margin: 0;
-    font-size: 13px;
+    font-size: 0.73vw;
 }
 .section3 .cont_section3 img{
     width: 100%;
@@ -213,9 +210,8 @@ header .text2{
     border: none;
 }
 footer{
-    border-top: 9px double black;
     width: 100%;
-    height: 8vh;
+    height: 10vh;
 }
 footer img{
     width: 100%;
